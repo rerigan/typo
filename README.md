@@ -1,12 +1,19 @@
-# React + Vite
+<h2 align="center">Typ_</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Esse é um site de teste de digitação. Está em processo de desenvolvimento. As ideias que vou colocar nele são: randomizar as palavras de um texto; jogar na caixa das palavras; o usuário aperta pra começar o cronômetro e tem que escrever o mais rápido que conseguir em 60 segundos; conforme ele escreve vai aparecendo mais palavras e recebe um indicador visual de que as palavras que escreveu já passaram; <br>Após o teste, é gerado um relatório de quantas palavras por minuto o usuário escreveu, e ele tem acesso a um histórico para ele refletir na sua evolução. Os resultados serão guardados no armazenamento do navegador.</p>
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- JavaScript
+- React, HTML, CSS
+
+
+<br><br><br><br><br><br><br>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
