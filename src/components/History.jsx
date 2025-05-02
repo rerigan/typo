@@ -5,11 +5,30 @@ function History() {
         <div className="history-wpm">
             <div className='history'>
             <h2>History</h2>
-            <ul>
-                <li>Typing test 1: 50 WPM</li>
-                <li>Typing test 2: 55 WPM</li>
-                <li>Typing test 3: 60 WPM</li>
-            </ul>
+            
+            <table className='history'>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>WPM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>02/05</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>03/05</td>
+                        <td>55</td>
+                    </tr>
+                    <tr>
+                        <td>04/05</td>
+                        <td>60</td>
+                    </tr>
+                </tbody></table>
+        
+        
             </div>
             <div className='wpm'><h3>WPM</h3><h5>(palavras por minuto)</h5>
             <h4 className='wpm-now' id='wpm-now'>128</h4></div>
