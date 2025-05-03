@@ -36,15 +36,7 @@ h5 {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.footer {
- 
-  position:absolute;
-  bottom: 0;
-  left:50%;
-  margin:auto;
-  transform:translateX(-50%);
-  
-}
+
 
 @media (max-width: 768px) {
   .history-wpm {

@@ -1,11 +1,13 @@
 #root {
-  max-width: 100vw;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0;
   text-align: center;
   font-family: Helvetica, sans-serif;
+}
 
-
+#root {
+  -webkit-tap-highlight-color: transparent;
 }
 .git-logo{
   font-size: 25px; 
@@ -37,14 +39,19 @@ h1 {
   color: white;
 }
 
-.titulo {
-  margin:0
+
+
+.footer h5{
+  display:flex;
+  margin:20px auto;
+  justify-content:center;
+  
 }
 
 @media(max-width: 768px) {
   h1 {
     font-size: 2rem;
-    margin:0;
+    
   }
 }
 h3 {

@@ -15,7 +15,7 @@ function App() {
         <a href="https://github.com/rerigan" target='_blank'><ion-icon name="logo-github" className="git-logo"></ion-icon></a>
         <TypingWindow />
         <History />
-        <div className='footer'><h5>Built by Rerigan</h5></div>
+        <div className='footer'><a href='https://github.com/rerigan'><h5>Built by Rerigan</h5></a></div>
       </div>
     
   );
