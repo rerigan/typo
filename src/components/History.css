@@ -8,12 +8,37 @@ ul {
 
   width: 300px;
 }
+.history-table-div {
+  display: flex;
+  flex-direction: column;
+  overflow:hidden;
+  border: 1px solid red;
+  max-height:500px;
+  transition: all 0.5s;
+  
+}
+.history-table-div.escondido {
+  max-height:0;
+  transition: all 0.3s;
+}
+
 .history-wpm {
   display: flex;
   justify-content: space-between;
 
   margin: 0 auto;
   max-width:90%;
+}
+.history a{
+  color:white;
+  border-radius:10px;
+  text-decoration: none;
+  background-color:rgba(255, 255, 255, 0.2);
+  padding: 15px;
+}
+.history a:hover{
+  background-color:rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease-in-out;
 }
 
 .wpm {

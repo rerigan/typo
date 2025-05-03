@@ -1,12 +1,17 @@
 import './History.css';
 
+function handleClick() {
+    const historyEscondido = document.querySelector('.history-table-div');
+    historyEscondido.classList.toggle('escondido');
+}
+
 function History() {
     return(
         <div className="history-wpm">
             <div className='history'>
-            <h2>History</h2>
-            
-            <table className='history'>
+           <h2> <a href='#' onClick={handleClick}>History</a></h2>
+            <div className='history-table-div escondido'>
+            <table className='history-table'>
                 <thead>
                     <tr>
                         <th>Data</th>
@@ -27,6 +32,7 @@ function History() {
                         <td>60</td>
                     </tr>
                 </tbody></table>
+                </div>
         
         
             </div>
