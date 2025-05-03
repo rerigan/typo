@@ -9,7 +9,7 @@ function History() {
     return(
         <div className="history-wpm">
             <div className='history'>
-           <h2> <a href='#' onClick={handleClick}>History</a></h2>
+           <h2> <a onClick={handleClick} className='history-btn'>History</a></h2>
             <div className='history-table-div escondido'>
             <table className='history-table'>
                 <thead>
