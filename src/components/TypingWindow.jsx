@@ -12,13 +12,13 @@ function TypingWindow() {
   
     function handleKeyDown(e) {
       if (e.key === " ") {
-        e.preventDefault(); // evita inserir espaço no input
+        e.preventDefault();
         nextPalavra();
       }
     }
   
     function nextPalavra() {
-      // Aqui você pode mudar a palavra alvo, contar pontos, etc.
+      
       setPalavraAtual("");
     }
   
