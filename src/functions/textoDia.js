@@ -15,11 +15,14 @@ const limpas = array.map(tex =>
 );
 
 for (let i = limpas.length - 1; i > 0; i--) {
-let j = Math.floor(Math.random() * (i + 1));
-[array[i], array[j]] = [array[j], array[i]];
+  let j = Math.floor(Math.random() * (i + 1));
+  [limpas[i], limpas[j]] = [limpas[j], limpas[i]];
 }
+
 
 
 console.log(limpas)
 
-export default texto;
+let texto2 = limpas.splice(0, 200).join(' ');
+
+export default texto2;
